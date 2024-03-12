@@ -12,7 +12,7 @@ client = OpenAI(api_key=openai_api_key)
 
 response = client.images.generate(
     model=MODEL,
-    prompt="멋쟁이 사자를 그려줘",
+    prompt="아메리칸 숏헤어 고양이랑 폼스키 강아지가 서로 사이 좋게 노는 그림 그려줘",
     size="1024x1024",
     quality="standard",
     n=1,
