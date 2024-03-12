@@ -1,4 +1,4 @@
-from openai import OpenAI
+from openai_1 import OpenAI
 import os
 from PIL import Image
 import requests
